@@ -1,44 +1,47 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --font-jetbrains: JetBrains Mono, monospace;
+    --font-jetbrains: JetBrains Mono, monospace;
     --font-blophy: Blophy, sans-serif;
 }
 
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    @apply bg-white dark:bg-gray-950;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    }
 }
 
 @font-face {
-  font-family: 'Blophy';
-  /*noinspection CssUnknownTarget*/
-  src: url('/fonts/Blophy.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Blophy';
+    /*noinspection CssUnknownTarget*/
+    src: url('/fonts/Blophy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 code, pre {
-  font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .themed-gradient {
-  background: darkgray;
-  content: linear-gradient(70deg, #49D4F1, #B4F744);
+    background: darkgray;
+    content: linear-gradient(70deg, #49D4F1, #B4F744);
 }

@@ -42,7 +42,7 @@ export default function Navbar() {
                             whileHover={{x: -5}}
                             transition={{duration: 0.3, delay: 0.3}}
                         >
-                            <Link to="/public" className="font-blophy text-2xl text-gray-800" ref={blophyRef}>
+                            <Link to="/" className="font-blophy text-2xl text-gray-800" ref={blophyRef}>
                                 blophy
                             </Link>
                         </motion.div>
@@ -55,7 +55,7 @@ export default function Navbar() {
                             transition={{duration: 0.3, delay: 0.3}}
                             ref={novaRef}
                         >
-                            <Link to="/public" className="font-blophy">
+                            <Link to="/" className="font-blophy">
                                 nova
                             </Link>
                         </motion.div>
@@ -66,7 +66,7 @@ export default function Navbar() {
                             <li>
                                 <Link
                                     to="/"
-                                    className={`text-gray-800 hover:text-gray-500 ${getLinkClass("home")} hover:border-b-2 border-blue-300`}
+                                    className={`text-black hover:text-gray-500 ${getLinkClass("home")} hover:border-b-2 border-blue-300`}
                                 >
                                     首页
                                 </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
                             <li>
                                 <Link
                                     to="/about"
-                                    className={`text-gray-800 hover:text-gray-500 ${getLinkClass("about")} hover:border-b-2 border-blue-300`}
+                                    className={`text-black hover:text-gray-500 ${getLinkClass("about")} hover:border-b-2 border-blue-300`}
                                 >
                                     关于
                                 </Link>
