@@ -15,6 +15,7 @@ export default function Page() {
         {'url(backgrounds/virtual_space.png)': '青之弧'},
         {'url(backgrounds/xrtjh.png)': 'BGA'},
         {'url(backgrounds/fengyu.png)': '雨の音を聞くー'},
+        {'url(backgrounds/gloria_in_excelsis_deo.png)': '雨の音を聞くー'}
     ];
     const [currentBackground, setCurrentBackground] = useState<{ [key: string]: string }>({'': ''});
     useEffect(() => {
@@ -23,7 +24,7 @@ export default function Page() {
     }, []);
     return (
         <div
-            className="bg-center bg-cover"
+            className="bg-center bg-cover  bg-fixed overflow-x-hidden"
             style={{
                 backgroundImage: Object.keys(currentBackground)[0],
                 backgroundSize: 'cover',
@@ -145,11 +146,11 @@ export default function Page() {
                     <h2 className="text-4xl font-bold whitespace-nowrap">和最近更新了啥...</h2>
                     <p className="text-2xl whitespace-nowrap mt-2">这个网站...</p>
                 </div>
-                <div
-                    className="absolute top-[92%] left-[94%] transform -translate-x-1/2 -translate-y-1/2 text-center z-10 text-gray-600 whitespace-nowrap"
-                >
-                    Iss: {Object.values(currentBackground)[0]}
-                </div>
+            </div>
+            <div
+                className="absolute top-[96%] left-[94%] transform -translate-x-1/2 -translate-y-1/2 text-center z-10 text-gray-600 whitespace-nowrap"
+            >
+                Iss: {Object.values(currentBackground)[0]}
             </div>
         </div>
     );
