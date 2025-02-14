@@ -2,11 +2,11 @@ import React, {useEffect, useState} from 'react';
 
 export default function About() {
     const backgrounds: { [key: string]: string }[] = [
-        {'url(backgrounds/close_to_me.png)': '雨の音を聞くー'},
-        {'url(backgrounds/virtual_space.png)': '青之弧'},
-        {'url(backgrounds/xrtjh.png)': 'BGA'},
-        {'url(backgrounds/fengyu.png)': '雨の音を聞くー'},
-        {'url(backgrounds/gloria_in_excelsis_deo.png)': '雨の音を聞くー'}
+        {'backgrounds/close_to_me.png': '雨の音を聞くー'},
+        {'backgrounds/virtual_space.png': '青之弧'},
+        {'backgrounds/xrtjh.png': 'BGA'},
+        {'backgrounds/fengyu.png': '雨の音を聞くー'},
+        {'backgrounds/gloria_in_excelsis_deo.png': '雨の音を聞くー'}
     ];
     const [currentBackground, setCurrentBackground] = useState<{ [key: string]: string }>({'': ''});
     useEffect(() => {
@@ -17,7 +17,7 @@ export default function About() {
         <div
             className="bg-center bg-cover bg-fixed overflow-hidden"
             style={{
-                backgroundImage: Object.keys(currentBackground)[0],
+                backgroundImage: `url(${Object.keys(currentBackground)[0]})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 zIndex: -1,

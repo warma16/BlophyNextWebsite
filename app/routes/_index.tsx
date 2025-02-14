@@ -10,28 +10,8 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Page() {
-    const backgrounds: { [key: string]: string }[] = [
-        {'url(backgrounds/close_to_me.png)': '雨の音を聞くー'},
-        {'url(backgrounds/virtual_space.png)': '青之弧'},
-        {'url(backgrounds/xrtjh.png)': 'BGA'},
-        {'url(backgrounds/fengyu.png)': '雨の音を聞くー'},
-        {'url(backgrounds/gloria_in_excelsis_deo.png)': '雨の音を聞くー'}
-    ];
-    const [currentBackground, setCurrentBackground] = useState<{ [key: string]: string }>({'': ''});
-    useEffect(() => {
-        const randomIndex = Math.floor(Math.random() * backgrounds.length);
-        setCurrentBackground(backgrounds[randomIndex]);
-    }, []);
     return (
-        <div
-            className="bg-center bg-cover  bg-fixed overflow-x-hidden"
-            style={{
-                backgroundImage: Object.keys(currentBackground)[0],
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                zIndex: -1,
-            }}
-        >
+
             <div
                 className="mt-16 relative flex items-center justify-items-center backdrop-blur-sm overflow-y-hidden md:justify-start"
             >
@@ -164,11 +144,7 @@ export default function Page() {
                     <p className="text-2xl whitespace-nowrap mt-2">这个网站...</p>
                 </div>
             </div>
-            <div
-                className="fixed top-h bottom-0 m-4 text-center z-10 text-gray-600 whitespace-nowrap"
-            >
-                Iss: {Object.values(currentBackground)[0]}
-            </div>
-        </div>
+
+  
     );
 }

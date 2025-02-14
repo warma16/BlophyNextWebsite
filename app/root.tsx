@@ -1,23 +1,50 @@
 import {Links, Meta, Outlet, Scripts, ScrollRestoration,} from "@remix-run/react";
 import type {LinksFunction} from "@remix-run/node";
+import { useEffect} from "react";
+
 
 import "./tailwind.css";
 import Navbar from "~/components/navbar";
 
-export const links: LinksFunction = () => [
-    {rel: "preconnect", href: "https://fonts.googleapis.com"},
-    {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com",
-        crossOrigin: "anonymous",
-    },
-    {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-    },
+const backgrounds: { [key: string]: string }[] = [
+    {'backgrounds/close_to_me.png': '雨の音を聞くー'},
+    {'backgrounds/virtual_space.png': '青之弧'},
+    {'backgrounds/xrtjh.png': 'BGA'},
+    {'backgrounds/fengyu.png': '雨の音を聞くー'},
+    {'backgrounds/gloria_in_excelsis_deo.png': '雨の音を聞くー'}
 ];
+//获取keys
+export const links: LinksFunction = () => {
+    var linkss=[
+        {rel: "preconnect", href: "https://fonts.googleapis.com"},
+        {
+            rel: "preconnect",
+            href: "https://fonts.gstatic.com",
+            crossOrigin: "anonymous",
+        },
+        {
+            rel: "stylesheet",
+            href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+        },
+        
+    ];
+    //build preload
+    for (let i = 0; i < backgrounds.length; i++) {
+        let background = backgrounds[i];
+        for (let key in background) {
+            linkss.push({rel: "preload", href: key, as: "image"});
+        }
+        
+    }
+    //build preload end
+    return linkss;
+}
 
 export function Layout({children}: { children: React.ReactNode }) {
+
+        
+        const randomIndex = Math.floor(Math.random() * backgrounds.length);
+        const currentBackground=backgrounds[randomIndex]
     return (
         <html lang="zh_CN">
         <head>
@@ -33,7 +60,25 @@ export function Layout({children}: { children: React.ReactNode }) {
         </head>
         <body className="flex flex-col min-h-screen">
         <Navbar/>
-        <main className="flex-grow"><Outlet/></main>
+        <main 
+            className="flex-grow "
+           
+        >
+            <div  className="bg-center bg-cover  bg-fixed overflow-x-hidden" style={{
+                backgroundImage: `url(${Object.keys(currentBackground)[0]})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                zIndex: -1,
+            }}>
+                <Outlet/>
+                <div
+                    className="fixed top-h bottom-0 m-4 text-center z-10 text-gray-600 whitespace-nowrap"
+                >
+                    Iss: {Object.values(currentBackground)[0]}
+                </div>
+            </div>
+            
+        </main>
         <ScrollRestoration/>
         <Scripts/>
         </body>
