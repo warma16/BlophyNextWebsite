@@ -1,19 +1,26 @@
-//导入指定目录下的所有文件
+// utils/AllImport.ts
+import fs from 'fs';
+import React from "react";
 
-import fs from 'fs'
+type ModuleType = Record<string, unknown> | React.ComponentType;
 
-const importAll = (path:string,arequire=(a:string)=>{return require(a)}) => {
-  //在path路径里面找出所有文件名
-  const files = fs.readdirSync(path)
-  var res:Record<string,any>={}
-  for (let i = 0; i < files.length; i++) {
-      var file= files[i]
-      var fileName= file.split('.')[0]
-      if (fs.statSync(path + '/' + file).isDirectory()) {
-          res[fileName]=arequire(path + '/' + file)
-      }
-  }
-  return res
-}
+const importAll = (
+    path: string,
+    arequire: (path: string) => ModuleType = require
+): Record<string, ModuleType> => {
+    const files = fs.readdirSync(path);
+    const res: Record<string, ModuleType> = {};
 
-export default importAll
+    for (const file of files) {
+        const [fileName] = file.split('.');
+        const fullPath = `${path}/${file}`;
+
+        if (fs.statSync(fullPath).isDirectory()) {
+            res[fileName] = arequire(fullPath);
+        }
+    }
+
+    return res;
+};
+
+export default importAll;
