@@ -64,8 +64,9 @@ const HeaderColorChanging = (imageUrl:string,headerRef:React.RefObject<HTMLEleme
         },0)
         console.log(`${imageUrl}:${averageGray}`)
         // 根据灰度设置字体颜色,在过黑的时候设置亮色
-        if (averageGray < 700000) {
+        if (averageGray < 7000000) {
           setFontColor("text-zinc-50");
+          console.log("ts change color")
           return ;
         }
         setFontColor(defaultColor);

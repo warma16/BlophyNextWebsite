@@ -26,24 +26,23 @@ export default function Navbar(props: { backgroundSrc?: string }) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     let bgSrc=props.backgroundSrc?props.backgroundSrc:"";
     const colorClassn = HeaderColorChanging(bgSrc,headerRef,canvasRef);
-    let colorClassName=""
-    let colorHover="";
+    const [colorClassName,setColorClassName]=useState("");
+    const [colorHover,setColorHover]=useState("");
 
-    let getColorClasses=()=>{
-        return colorClassName
-    }
     useEffect(() => {
+        let tmp_colorHover=""
         console.log("change color")
-        colorClassName=colorClassn;
+        setColorClassName(colorClassn);
         switch(colorClassName){
             case "text-zinc-50":
-                colorHover="text-zinc-100";
+                tmp_colorHover="text-zinc-100";
                 break;
             default:
-                colorHover="text-gray-500";
+                tmp_colorHover="text-gray-500";
                 break;
         }
-        console.log(colorClassName+colorHover)
+        setColorHover(tmp_colorHover);
+        //console.log(colorClassName+colorHover)
         
     },[colorClassn])
 
@@ -60,7 +59,6 @@ export default function Navbar(props: { backgroundSrc?: string }) {
 
     return (
         <div>
-            <p>Class: {getColorClasses()}</p>
             <canvas ref={canvasRef}></canvas>
             <header className="fixed top-0 left-0 w-full bg-opacity-60 backdrop-blur-sm shadow-md z-10" ref={headerRef}>
                 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -98,7 +96,7 @@ export default function Navbar(props: { backgroundSrc?: string }) {
                             <li>
                                 <Link
                                     to="/"
-                                    className={`${getColorClasses()} hover:${getColorClasses()} ${getLinkClass("home")} hover:border-b-2 border-blue-300`}
+                                    className={`${colorClassName} hover:${colorHover} ${getLinkClass("home")} hover:border-b-2 border-blue-300`}
                                 >
                                     首页
                                 </Link>
