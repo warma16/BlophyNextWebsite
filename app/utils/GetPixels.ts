@@ -3,13 +3,13 @@
 import { useState, useEffect, useRef } from "react";
 const analyzeImageData = (imageData:ImageData) => {
     // 计算图像的平均颜色
-    let data=imageData.data;
-    let pixels:Array<string>=[];
+    const data=imageData.data;
+    const pixels:Array<string>=[];
     for (let i = 0; i < data.length; i += 4) {
         let pixel:string;
-      let r:number = data[i];
-      let g:number = data[i + 1];
-      let b:number = data[i + 2];
+      const r:number = data[i];
+      const g:number = data[i + 1];
+      const b:number = data[i + 2];
       pixel=`${r},${g},${b}`;
       pixels.push(pixel);
     }
@@ -29,11 +29,11 @@ const HeaderColorChanging = (imageUrl:string,headerRef:React.RefObject<HTMLEleme
       const img = new Image();
 
             // 图片加载失败时设置为空字符串
-        let imgOnerror = () =>{ 
+        const imgOnerror = () =>{ 
 
                 setFontColor(defaultColor)
             };
-      let imgOnload = () => {
+      const imgOnload = () => {
         console.log("hello")
         if(!canvasRef.current || !ctx) return;
         // 设置canvas尺寸与图片相同
@@ -53,7 +53,7 @@ const HeaderColorChanging = (imageUrl:string,headerRef:React.RefObject<HTMLEleme
         const headerWidth=headerRef.current?headerRef.current.clientWidth:0;
         // 算出像素个数
         const needToFillPixels=headerHeight*headerWidth;
-        let needPixels=[]
+        const needPixels=[]
         for(let i=0;i<needToFillPixels;i++){
             needPixels.push(pixels[i])
         }

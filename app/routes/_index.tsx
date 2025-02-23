@@ -54,7 +54,7 @@ export default function Page() {
                     <div className="flex pt-2">
                         <Link
                             to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZC8-lrN0E651rGLKosBzYr-fPtPh9ntQ&authKey=gDfCU%2BeFTcW6cyJyrnrJbzkuM9oTHTRtBMNICjZuBhzGw3j4%2FMlVAqhI3sVGcWQC&noverify=0&group_code=761741595"
-                            target="_blank">
+                            target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em"
                                  viewBox="0 0 448 512"
                                  className="ml-2 flex-shrink-0 hover:text-blue-300">

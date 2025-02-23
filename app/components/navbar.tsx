@@ -24,7 +24,7 @@ export default function Navbar(props: { backgroundSrc?: string }) {
 
     const headerRef = useRef<HTMLElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
-    let bgSrc=props.backgroundSrc?props.backgroundSrc:"";
+    const bgSrc=props.backgroundSrc?props.backgroundSrc:"";
     const colorClassn = HeaderColorChanging(bgSrc,headerRef,canvasRef);
     const [colorClassName,setColorClassName]=useState("");
     const [colorHover,setColorHover]=useState("");
