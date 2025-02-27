@@ -1,7 +1,7 @@
 import {useRef, useState,useEffect} from 'react';
 import {motion} from 'framer-motion';
 import {Link, useLocation} from '@remix-run/react';
-import HeaderColorChanging from '~/utils/GetPixels.ts';
+import useHeaderColor from '~/utils/GetPixels';
 
 export default function Navbar(props: { backgroundSrc?: string }) {
     const [hovered, setHovered] = useState(false); // 控制是否显示 Nova
@@ -23,15 +23,15 @@ export default function Navbar(props: { backgroundSrc?: string }) {
     // header的ref用来获取header对象
 
     const headerRef = useRef<HTMLElement>(null);
-    const canvasRef = useRef<HTMLCanvasElement>(null);
     const bgSrc=props.backgroundSrc?props.backgroundSrc:"";
-    const colorClassn = HeaderColorChanging(bgSrc,headerRef,canvasRef);
-    const [colorClassName,setColorClassName]=useState("");
-    const [colorHover,setColorHover]=useState("");
+    // 拿worker去做，减少白屏时长
+    const colorClassn = useHeaderColor(bgSrc,headerRef);
+    const [colorClassName,setColorClassName]=useState<string>("");
+    const [colorHover,setColorHover]=useState<string>("");
 
     useEffect(() => {
         let tmp_colorHover=""
-        console.log("change color")
+        console.log(`change color ${colorClassn}`)
         setColorClassName(colorClassn);
         switch(colorClassName){
             case "text-zinc-50":
@@ -59,7 +59,6 @@ export default function Navbar(props: { backgroundSrc?: string }) {
 
     return (
         <div>
-            <canvas ref={canvasRef}></canvas>
             <header className="fixed top-0 left-0 w-full bg-opacity-60 backdrop-blur-sm shadow-md z-10" ref={headerRef}>
                 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
                     <div
