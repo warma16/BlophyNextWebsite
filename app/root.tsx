@@ -2,7 +2,10 @@ import {Links, Meta, Outlet, Scripts, ScrollRestoration,} from "@remix-run/react
 import type {LinkDescriptor, LinksFunction} from "@remix-run/node";
 import "./tailwind.css";
 import Navbar from "~/components/navbar";
+import consoleEgg from "~/utils/ConsoleEgg"
+
 import React from "react";
+import {useEffect} from "react";
 
 const backgrounds: { [key: string]: string }[] = [
     {'backgrounds/close_to_me.png': '雨の音を聞くー'},
@@ -37,8 +40,10 @@ export const links: LinksFunction = () => {
 }
 
 export function Layout({children}: { children: React.ReactNode }) {
+    consoleEgg()
     const randomIndex = Math.floor(Math.random() * backgrounds.length);
     const currentBackground = backgrounds[randomIndex]
+
     return (
         <html lang="zh_CN">
         <head>
