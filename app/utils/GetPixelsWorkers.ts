@@ -16,9 +16,11 @@ const analyzeImageData = (imageData: ImageData, sampleSize: number) => {
   self.onmessage = async (event) => {
     console.log("worker recieved")
     const { imageUrl, sampleSize } = event.data;
+    console.log(imageUrl, sampleSize)
+    const fullUrl=`${location.origin}/${imageUrl}`
     
     try {
-      const response = await fetch(imageUrl);
+      const response = await fetch(fullUrl);
       const blob = await response.blob();
       const bitmap = await createImageBitmap(blob);
       
