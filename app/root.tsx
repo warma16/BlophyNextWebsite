@@ -40,6 +40,7 @@ export const links: LinksFunction = () => {
 }
 
 export function Layout({children}: { children: React.ReactNode }) {
+    
     consoleEgg()
     const randomIndex = Math.floor(Math.random() * backgrounds.length);
     const currentBackground = backgrounds[randomIndex]

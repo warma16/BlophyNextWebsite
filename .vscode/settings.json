@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "*.ttml": "xml",
+        "*.ttss": "css"
+    }
+}
