@@ -433,15 +433,15 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span style={{fontFamily: '"Times New Roman",serif', color: "#000000"}}>当您注册登录</span>
+                        <span style={{fontFamily: '"Times New Roman",serif',}}>当您注册登录</span>
                         <span>《Blophy》账户</span>
-                        <span style={{fontFamily: '"Times New Roman",serif', color: "#000000"}}>时，我们需要收集您的用户昵称、用户头像、电子邮件地址、密码、电话号码以及我们从您连接的社交媒体账户（例如：QQ、微信、TapTap、Facebook、X、Google
+                        <span style={{fontFamily: '"Times New Roman",serif',}}>时，我们需要收集您的用户昵称、用户头像、电子邮件地址、密码、电话号码以及我们从您连接的社交媒体账户（例如：QQ、微信、TapTap、Facebook、X、Google
       Play、Game
       Center或LINE）导入的信息，以设置您的资料，包括您的社交媒体个人资料中的姓名，用户ID和个人资料图片。对于某些地区，您可能还会被要求提供出生日期以验证您的年龄。我们收集您的上述信息是为了帮助您完成</span>
                         <span>《Blophy》</span>
                         <span style={{
                             fontFamily: '"Times New Roman",serif',
-                            color: "#000000"
+
                         }}>账户的注册登录流程，保护您的账户安全，如您不提供这类信息，我们将无法为您创建账户并正常向您提供服务。</span>
                     </p>
                 </li>
@@ -598,7 +598,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #dddddd",
+                            border: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -624,10 +624,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -653,10 +653,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -682,10 +682,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             padding: "1.0px",
 
                             verticalAlign: "middle",
@@ -710,7 +710,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #dddddd",
+                            border: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -735,10 +735,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -769,10 +769,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -803,10 +803,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             padding: "1.0px",
 
                             verticalAlign: "middle",
@@ -830,7 +830,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #dddddd",
+                            border: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -855,10 +855,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -889,10 +889,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -923,10 +923,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             padding: "1.0px",
 
                             verticalAlign: "middle",
@@ -950,7 +950,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #dddddd",
+                            border: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -975,10 +975,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -1009,10 +1009,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             paddingTop: "6.9921265px",
                             paddingBottom: "6.9921265px",
                             paddingLeft: "10.015748px",
@@ -1043,10 +1043,10 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            borderTop: "1.0px solid #dddddd",
-                            borderBottom: "1.0px solid #dddddd",
+                            borderTop: "1.0px solid",
+                            borderBottom: "1.0px solid",
                             borderLeft: "none",
-                            borderRight: "1.0px solid #dddddd",
+                            borderRight: "1.0px solid",
                             padding: "1.0px",
                             verticalAlign: "middle",
                             width: "117.340164px"
@@ -1786,7 +1786,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             paddingTop: 0,
                             paddingBottom: 0,
                             paddingLeft: "1.0px",
@@ -1813,7 +1813,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             paddingTop: 0,
                             paddingBottom: 0,
                             paddingLeft: "1.0px",
@@ -1840,7 +1840,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             paddingTop: 0,
                             paddingBottom: 0,
                             paddingLeft: "1.0px",
@@ -1867,7 +1867,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             paddingTop: 0,
                             paddingBottom: 0,
                             paddingLeft: "1.0px",
@@ -1896,7 +1896,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "50.497635px"
@@ -1916,7 +1916,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "72.4945px"
@@ -1937,7 +1937,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "209.84253px"
@@ -1956,7 +1956,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "183.42361px"
@@ -1981,7 +1981,7 @@ export default function Privacy() {
                 <tr>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "50.497635px"
@@ -2001,7 +2001,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "72.4945px"
@@ -2024,7 +2024,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "209.84253px"
@@ -2043,7 +2043,7 @@ export default function Privacy() {
                     </td>
                     <td
                         style={{
-                            border: "1.0px solid #000000",
+                            border: "1.0px solid",
                             padding: "3.817323px",
                             verticalAlign: "middle",
                             width: "183.42361px"
@@ -2157,7 +2157,6 @@ export default function Privacy() {
                             style={{fontWeight: "bold"}}>在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。我们将及时将事件相关情况以应用程序推送、电子邮件、短信、电话等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。同时，我们还将</span>
                         <span style={{
                             fontWeight: "bold",
-                            color: "#333333"
                         }}>按照监管部门要求，主动上报个人信息安全事件的处置情况。</span>
                     </p>
                 </li>
@@ -2619,10 +2618,10 @@ export default function Privacy() {
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
                 <span>联系电邮：</span>
-                <span style={{
+                <a style={{
                     fontFamily: '"Times New Roman",serif',
                     textDecoration: "underline"
-                }}>blophy-nova@blophy.net</span>
+                }} href="mailto:blophy-nova@blophy.net">blophy-nova@blophy.net</a>
             </p>
             <p
                 className="Standard"
