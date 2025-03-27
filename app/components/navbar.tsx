@@ -1,6 +1,6 @@
 import {useRef, useState} from 'react';
 import {motion} from 'framer-motion';
-import {Link, useLocation} from '@remix-run/react';
+import {Link, useLocation} from 'react-router';
 
 export default function Navbar() {
     const [hovered, setHovered] = useState(false); // 控制是否显示 Nova

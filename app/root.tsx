@@ -1,5 +1,5 @@
-import {Links, Meta, Outlet, Scripts, ScrollRestoration,} from "@remix-run/react";
-import type {LinkDescriptor, LinksFunction} from "@remix-run/node";
+import type {LinkDescriptor, LinksFunction} from "react-router";
+import {Links, Meta, Outlet, Scripts, ScrollRestoration} from "react-router";
 import "./tailwind.css";
 import Navbar from "~/components/navbar";
 import React from "react";
