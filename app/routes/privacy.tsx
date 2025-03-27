@@ -1,11 +1,159 @@
+import type {MetaFunction} from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+    return [
+        {title: "Blophy | Privacy Policy"},
+        {name: "Blophy", content: "Blophy Privacy Policy"},
+    ];
+};
+
 export default function Privacy() {
     return <div className="mt-16 backdrop-blur">
         <style
             media="all"
             type="text/css"
             dangerouslySetInnerHTML={{
-                __html:
-                    "\n      p.Marginalia {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:left;font-family:Calibri,serif;font-size:16.0px}\n      p.ListParagraph1 {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,sans-serif;font-size:16.0px}\n      p.Standard {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:justify;font-family:Calibri,serif;font-size:16.0px}\n      p.ListParagraph {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,serif;font-size:16.0px}\n      .listlevel1WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum5 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum3 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum2 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n    "
+                __html: `
+      p.Marginalia {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:left;font-family:Calibri,serif;font-size:16.0px}
+      p.ListParagraph1 {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,sans-serif;font-size:16.0px}
+      p.Standard {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:justify;font-family:Calibri,serif;font-size:16.0px}
+      p.ListParagraph {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,serif;font-size:16.0px}
+      .listlevel1WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum5 {margin-top:0;margin-bottom:0;clear:left}
+      .listlevel2WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel3WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel4WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel6WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel7WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel9WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel1WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum3 {margin-top:0;margin-bottom:0;clear:left}
+      .listlevel2WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel3WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel4WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel6WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel7WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel9WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel1WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum2 {margin-top:0;margin-bottom:0;clear:left}
+      .listlevel2WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel3WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel4WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel6WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel7WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}
+      .listlevel9WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}
+      .listlevel1WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel1WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel2WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel3WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel4WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel5WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel6WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel7WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel8WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+      .listlevel9WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}
+    `
             }}
         />
         <h1 className="text-bold text-4xl pt-4 text-center">
