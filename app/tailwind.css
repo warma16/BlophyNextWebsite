@@ -45,3 +45,10 @@ code, pre {
     background: darkgray;
     content: linear-gradient(70deg, #49D4F1, #B4F744);
 }
+
+.text-bold {
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

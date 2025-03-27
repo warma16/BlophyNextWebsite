@@ -8,7 +8,7 @@ export default function Privacy() {
                     "\n      p.Marginalia {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:left;font-family:Calibri,serif;font-size:16.0px}\n      p.ListParagraph1 {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,sans-serif;font-size:16.0px}\n      p.Standard {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-align:justify;font-family:Calibri,serif;font-size:16.0px}\n      p.ListParagraph {margin-left:0;margin-right:0;margin-top:8.012598px;margin-bottom:8.012598px;border:none;padding:0;text-indent:28.0063px;text-align:justify;font-family:Calibri,serif;font-size:16.0px}\n      .listlevel1WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum14 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum5 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum5 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum13 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum4 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum4 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum12 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum3 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum3 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum3 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum11 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum2 {margin-top:0;margin-bottom:0;clear:left}\n      .listlevel2WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel3WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel4WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel6WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel7WWNum2 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-alpha;clear:left}\n      .listlevel9WWNum2 {margin-top:0;margin-bottom:0;list-style-type:lower-roman;clear:left}\n      .listlevel1WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum10 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum1 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum9 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum8 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum7 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum15 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel1WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel2WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel3WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel4WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel5WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel6WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel7WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel8WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n      .listlevel9WWNum6 {margin-top:0;margin-bottom:0;list-style-type:decimal;clear:left}\n    "
             }}
         />
-        <h1 className="font-bold text-4xl pt-4 text-center">
+        <h1 className="text-bold text-4xl pt-4 text-center">
             《Blophy》隐私政策
         </h1>
         <div className="px-16">
@@ -30,19 +30,19 @@ export default function Privacy() {
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
                 <span>青柠工作室（以下简称“</span>
-                <span className="font-bold">我们</span>
+                <span className="text-bold">我们</span>
                 <span>”或“</span>
-                <span className="font-bold">我们的</span>
+                <span className="text-bold">我们的</span>
                 <span>”）系移动应用程序</span>
                 《Blophy》
                 <span>的运营者。我们非常重视保护用户（以下简称“</span>
-                <span className="font-bold">您</span>
+                <span className="text-bold">您</span>
                 <span>”或“</span>
-                <span className="font-bold">用户</span>
+                <span className="text-bold">用户</span>
                 <span>”）的个人信息和隐私。您在使用</span>
                 《Blophy》
                 <span>时，我们会收集、使用、保存、共享您的相关个人信息。为呈现我们处理您个人信息的情况，我们特制定《&lt;Blophy&gt;隐私政策》（以下简称“</span>
-                <span className="font-bold">隐私政策</span>
+                <span className="text-bold">隐私政策</span>
                 <span>”），我们承诺严格按照本隐私政策处理您的个人信息。</span>
             </p>
             <p
@@ -63,11 +63,11 @@ export default function Privacy() {
                 }}
             >
                 <span
-                    className="font-bold">在您使用《Blophy》前，请您务必认真阅读本隐私政策，充分理解各条款内容，包括但不限于免除或限制我们责任的条款。您知晓并确认，您勾选“同意”本隐私政策并使用《Blophy》，就表示您同意我们按照本隐私政策处理您的个人信息。</span>
+                    className="text-bold">在您使用《Blophy》前，请您务必认真阅读本隐私政策，充分理解各条款内容，包括但不限于免除或限制我们责任的条款。您知晓并确认，您勾选“同意”本隐私政策并使用《Blophy》，就表示您同意我们按照本隐私政策处理您的个人信息。</span>
                 <span>请您知悉，本政策仅适用于我们通过《Blophy》向您提供服务所收集的信息，不适用于通过接入《Blophy》以向您提供产品或服务的第三方所收集的信息。</span>
             </p>
             <p
-                className="Standard font-bold"
+                className="Standard text-bold"
                 dir="ltr"
                 style={{
                     marginTop: 0,
@@ -81,7 +81,7 @@ export default function Privacy() {
                 dir="ltr"
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
-                <span className="font-bold">本隐私政策将帮助您了解以下内容：</span>
+                <span className="text-bold">本隐私政策将帮助您了解以下内容：</span>
             </p>
             <ol className="listlevel1WWNum2">
                 <li>
@@ -95,7 +95,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何收集和使用您的个人信息</span>
+                        <span className="text-bold">我们如何收集和使用您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -109,7 +109,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何保存您的个人信息</span>
+                        <span className="text-bold">我们如何保存您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -123,7 +123,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何公开披露您的个人信息</span>
+                        <span className="text-bold">我们如何公开披露您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -137,7 +137,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">第三方产品或服务如何获得您的个人信息</span>
+                        <span className="text-bold">第三方产品或服务如何获得您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -151,7 +151,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何保护/传输您的个人信息</span>
+                        <span className="text-bold">我们如何保护/传输您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -165,7 +165,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">您如何管理您的个人信息</span>
+                        <span className="text-bold">您如何管理您的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -179,7 +179,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何处理未成年人的个人信息</span>
+                        <span className="text-bold">我们如何处理未成年人的个人信息</span>
                     </p>
                 </li>
                 <li>
@@ -193,7 +193,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">本隐私政策如何更新</span>
+                        <span className="text-bold">本隐私政策如何更新</span>
                     </p>
                 </li>
                 <li>
@@ -207,9 +207,9 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">如何联系我们</span>
+                        <span className="text-bold">如何联系我们</span>
                         <a id="v3qnlv"/>
-                        <span className="font-bold"/>
+                        <span className="text-bold"/>
                     </p>
                 </li>
             </ol>
@@ -238,7 +238,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何收集和使用您的个人信息</span>
+                        <span className="text-bold">我们如何收集和使用您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -253,7 +253,7 @@ export default function Privacy() {
                     textIndent: 0
                 }}
             >
-                <span className="font-bold">（一）我们如何收集您的个人信息</span>
+                <span className="text-bold">（一）我们如何收集您的个人信息</span>
             </p>
             <p
                 className="ListParagraph"
@@ -274,7 +274,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: "8.012598px", marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold font-serif">完成注册</span>
+                        <span className="text-bold font-serif">完成注册</span>
                     </p>
                     <p
                         className="ListParagraph"
@@ -303,7 +303,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: "8.012598px", marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">游戏服务</span>
+                        <span className="text-bold">游戏服务</span>
                     </p>
                     <p
                         className="ListParagraph"
@@ -367,7 +367,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: "8.012598px", marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">实名认证</span>
+                        <span className="text-bold">实名认证</span>
                     </p>
                     <p
                         className="ListParagraph"
@@ -387,7 +387,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: "8.012598px", marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">保障网络和服务的安全</span>
+                        <span className="text-bold">保障网络和服务的安全</span>
                     </p>
                     <p
                         className="ListParagraph"
@@ -419,7 +419,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px", textIndent: 0}}
                     >
-                        <span className="font-bold">设备权限调用情况</span>
+                        <span className="text-bold">设备权限调用情况</span>
                     </p>
                 </li>
             </ol>
@@ -430,7 +430,7 @@ export default function Privacy() {
             >
                 <span>在您使用《Blophy》过程中，我们需要在必要范围内向您申请获取设备权限。</span>
                 <span
-                    className="font-bold">请您知悉，我们不会默认开启您设备的权限，仅在您主动确认开启的情况下，《Blophy》才有可能通过设备权限收集您的信息。</span>
+                    className="text-bold">请您知悉，我们不会默认开启您设备的权限，仅在您主动确认开启的情况下，《Blophy》才有可能通过设备权限收集您的信息。</span>
                 <span>《Blophy》调用的权限、调用权限的目的，以及调用权限前向您询问的情况请见下表：</span>
             </p>
             <table
@@ -970,7 +970,7 @@ export default function Privacy() {
                     textIndent: 0
                 }}
             >
-                <span className="font-bold">（三）我们如何使用您的个人信息</span>
+                <span className="text-bold">（三）我们如何使用您的个人信息</span>
             </p>
             <ol className="listlevel1WWNum6">
                 <li>
@@ -982,7 +982,7 @@ export default function Privacy() {
                     <p className="Marginalia" dir="ltr">
                         <span>请您注意，</span>
                         <span
-                            className="font-bold">您在使用我们提供的服务时所提供的所有个人信息，除非您删除或通过系统设置拒绝我们收集，否则将在您使用我们的服务期间持续授权我们使用</span>
+                            className="text-bold">您在使用我们提供的服务时所提供的所有个人信息，除非您删除或通过系统设置拒绝我们收集，否则将在您使用我们的服务期间持续授权我们使用</span>
                         <span>。在您注销账号时，我们将停止使用并删除您的个人信息。</span>
                     </p>
                 </li>
@@ -1019,7 +1019,7 @@ export default function Privacy() {
                 <li>
                     <p className="Marginalia" dir="ltr">
                         <span
-                            className="font-bold">
+                            className="text-bold">
                             当我们要将您的个人信息用于本政策未载明的其它用途时，或基于特定目的收集而来的信息用于其他目的时，会通过您主动做出勾选的形式事先征求您的同意。{" "}</span>
                     </p>
                 </li>
@@ -1045,7 +1045,7 @@ export default function Privacy() {
                     textIndent: 0
                 }}
             >
-                <span className="font-bold">（四）Cookie和类似技术</span>
+                <span className="text-bold">（四）Cookie和类似技术</span>
             </p>
             <p
                 className="ListParagraph"
@@ -1149,7 +1149,7 @@ export default function Privacy() {
                     textIndent: 0
                 }}
             >
-                <span className="font-bold">（五）其他规则</span>
+                <span className="text-bold">（五）其他规则</span>
             </p>
             <p
                 className="ListParagraph"
@@ -1175,7 +1175,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与我们履行法律法规规定的义务相关的；</span>
+                        <span className="text-bold">与我们履行法律法规规定的义务相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1189,7 +1189,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与国家安全、国防安全直接相关的；</span>
+                        <span className="text-bold">与国家安全、国防安全直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1203,7 +1203,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与公共安全、公共卫生、重大公共利益直接相关的；</span>
+                        <span className="text-bold">与公共安全、公共卫生、重大公共利益直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1217,50 +1217,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与刑事侦查、起诉、审批和判决执行等直接相关的；</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{
-                            marginLeft: "56.314964px",
-                            marginTop: 0,
-                            marginBottom: "10.393702px",
-                            textIndent: "-28.346458px"
-                        }}
-                    >
-                        <span
-                            className="font-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{
-                            marginLeft: "56.314964px",
-                            marginTop: 0,
-                            marginBottom: "10.393702px",
-                            textIndent: "-28.346458px"
-                        }}
-                    >
-                        <span className="font-bold">所涉及的个人信息是个人信息主体或监护人自行向社会公众公开的；</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{
-                            marginLeft: "56.314964px",
-                            marginTop: 0,
-                            marginBottom: "10.393702px",
-                            textIndent: "-28.346458px"
-                        }}
-                    >
-                        <span className="font-bold">根据个人信息主体要求签订和履行合同所必需的；</span>
+                        <span className="text-bold">与刑事侦查、起诉、审批和判决执行等直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1275,7 +1232,35 @@ export default function Privacy() {
                         }}
                     >
                         <span
-                            className="font-bold">从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道；</span>
+                            className="text-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{
+                            marginLeft: "56.314964px",
+                            marginTop: 0,
+                            marginBottom: "10.393702px",
+                            textIndent: "-28.346458px"
+                        }}
+                    >
+                        <span className="text-bold">所涉及的个人信息是个人信息主体或监护人自行向社会公众公开的；</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{
+                            marginLeft: "56.314964px",
+                            marginTop: 0,
+                            marginBottom: "10.393702px",
+                            textIndent: "-28.346458px"
+                        }}
+                    >
+                        <span className="text-bold">根据个人信息主体要求签订和履行合同所必需的；</span>
                     </p>
                 </li>
                 <li>
@@ -1290,7 +1275,22 @@ export default function Privacy() {
                         }}
                     >
                         <span
-                            className="font-bold">维护所提供产品或服务的安全稳定运行所必需的，如发现、处置产品或服务的故障。</span>
+                            className="text-bold">从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道；</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{
+                            marginLeft: "56.314964px",
+                            marginTop: 0,
+                            marginBottom: "10.393702px",
+                            textIndent: "-28.346458px"
+                        }}
+                    >
+                        <span
+                            className="text-bold">维护所提供产品或服务的安全稳定运行所必需的，如发现、处置产品或服务的故障。</span>
                     </p>
                 </li>
             </ol>
@@ -1318,7 +1318,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何保存您的个人信息</span>
+                        <span className="text-bold">我们如何保存您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -1346,7 +1346,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">法律有明确规定；</span>
+                        <span className="text-bold">法律有明确规定；</span>
                     </p>
                 </li>
                 <li>
@@ -1360,7 +1360,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">获得您的明确授权；</span>
+                        <span className="text-bold">获得您的明确授权；</span>
                     </p>
                 </li>
                 <li>
@@ -1374,7 +1374,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">您要求获取境外服务等个人主动行为。</span>
+                        <span className="text-bold">您要求获取境外服务等个人主动行为。</span>
                     </p>
                 </li>
             </ol>
@@ -1408,7 +1408,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何公开披露您的个人信息</span>
+                        <span className="text-bold">我们如何公开披露您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -1424,7 +1424,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">公开披露</span>
+                        <span className="text-bold">公开披露</span>
                     </p>
                 </li>
             </ol>
@@ -1433,7 +1433,7 @@ export default function Privacy() {
                 dir="ltr"
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
-                <span className="font-bold">除非本合同另有约定或法律明确规定，我们不会公开披露您的个人信息。</span>
+                <span className="text-bold">除非本合同另有约定或法律明确规定，我们不会公开披露您的个人信息。</span>
             </p>
             <ol className="listlevel1WWNum10">
                 <li>
@@ -1447,7 +1447,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">例外情况</span>
+                        <span className="text-bold">例外情况</span>
                     </p>
                 </li>
             </ol>
@@ -1470,7 +1470,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与我们履行法律法规规定的义务相关的；</span>
+                        <span className="text-bold">与我们履行法律法规规定的义务相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1484,7 +1484,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与国家安全、国防安全直接相关的；</span>
+                        <span className="text-bold">与国家安全、国防安全直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1498,7 +1498,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与公共安全、公共卫生、重大公共利益直接相关的；</span>
+                        <span className="text-bold">与公共安全、公共卫生、重大公共利益直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1512,36 +1512,7 @@ export default function Privacy() {
                             textIndent: "-28.346458px"
                         }}
                     >
-                        <span className="font-bold">与刑事侦查、起诉、审判和判决执行等直接相关的；</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{
-                            marginLeft: "56.314964px",
-                            marginTop: 0,
-                            marginBottom: "10.393702px",
-                            textIndent: "-28.346458px"
-                        }}
-                    >
-                        <span
-                            className="font-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{
-                            marginLeft: "56.314964px",
-                            marginTop: 0,
-                            marginBottom: "10.393702px",
-                            textIndent: "-28.346458px"
-                        }}
-                    >
-                        <span className="font-bold">个人信息主体或监护人自行向社会公众公开的个人信息；</span>
+                        <span className="text-bold">与刑事侦查、起诉、审判和判决执行等直接相关的；</span>
                     </p>
                 </li>
                 <li>
@@ -1556,7 +1527,36 @@ export default function Privacy() {
                         }}
                     >
                         <span
-                            className="font-bold">从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</span>
+                            className="text-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{
+                            marginLeft: "56.314964px",
+                            marginTop: 0,
+                            marginBottom: "10.393702px",
+                            textIndent: "-28.346458px"
+                        }}
+                    >
+                        <span className="text-bold">个人信息主体或监护人自行向社会公众公开的个人信息；</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{
+                            marginLeft: "56.314964px",
+                            marginTop: 0,
+                            marginBottom: "10.393702px",
+                            textIndent: "-28.346458px"
+                        }}
+                    >
+                        <span
+                            className="text-bold">从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</span>
                     </p>
                 </li>
             </ol>
@@ -1568,7 +1568,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">请注意，您在使用我们服务时自愿共享甚至公开分享的信息，可能会涉及您或他人的个人信息甚至个人敏感信息。请您谨慎共享或公开，如所涉信息包含他人个人信息，请您在共享或公开前取得他人同意。</span>
+                            className="text-bold">请注意，您在使用我们服务时自愿共享甚至公开分享的信息，可能会涉及您或他人的个人信息甚至个人敏感信息。请您谨慎共享或公开，如所涉信息包含他人个人信息，请您在共享或公开前取得他人同意。</span>
                     </p>
                 </li>
                 <li>
@@ -1578,7 +1578,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">请知悉，根据法律规定，若我们采取技术措施和其他必要措施处理个人信息，使得数据接收方无法重新识别特定个人且不能复原，经上述处理后的数据的共享、转让、公开披露无需另行向您通知并征得您的同意。</span>
+                            className="text-bold">请知悉，根据法律规定，若我们采取技术措施和其他必要措施处理个人信息，使得数据接收方无法重新识别特定个人且不能复原，经上述处理后的数据的共享、转让、公开披露无需另行向您通知并征得您的同意。</span>
                     </p>
                 </li>
             </ol>
@@ -1606,7 +1606,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">第三方产品或服务如何获得您的个人信息</span>
+                        <span className="text-bold">第三方产品或服务如何获得您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -1953,7 +1953,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-sans font-bold">我们如何保护/传输您的个人信息</span>
+                        <span className="font-sans text-bold">我们如何保护/传输您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -2037,7 +2037,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">您如何管理您的个人信息</span>
+                        <span className="text-bold">您如何管理您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -2055,7 +2055,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">访问及更正您的个人信息</span>
+                        <span className="text-bold">访问及更正您的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -2079,7 +2079,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">删除您的个人信息{" "}</span>
+                        <span className="text-bold">删除您的个人信息{" "}</span>
                     </p>
                 </li>
             </ol>
@@ -2098,7 +2098,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">我们违反法律、行政法规或与您的约定收集、使用个人信息；</span>
+                        <span className="text-bold">我们违反法律、行政法规或与您的约定收集、使用个人信息；</span>
                     </p>
                 </li>
                 <li>
@@ -2108,7 +2108,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">我们违反法律、行政法规或与您的约定与第三方共享或转让您的个人信息，我们将立即停止共享、转让行为，并通知第三方及时删除；</span>
+                            className="text-bold">我们违反法律、行政法规或与您的约定与第三方共享或转让您的个人信息，我们将立即停止共享、转让行为，并通知第三方及时删除；</span>
                     </p>
                 </li>
                 <li>
@@ -2118,7 +2118,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">我们违反法律、行政法规规定或与您的约定，公开披露您的个人信息，我们将立即停止公开披露的行为，并发布通知要求相关接收方删除相应的信息；</span>
+                            className="text-bold">我们违反法律、行政法规规定或与您的约定，公开披露您的个人信息，我们将立即停止公开披露的行为，并发布通知要求相关接收方删除相应的信息；</span>
                     </p>
                 </li>
                 <li>
@@ -2128,7 +2128,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">您不再使用我们的产品或服务，或您注销了账号，或我们终止服务及运营。</span>
+                            className="text-bold">您不再使用我们的产品或服务，或您注销了账号，或我们终止服务及运营。</span>
                     </p>
                 </li>
             </ol>
@@ -2163,7 +2163,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">改变您授权同意的范围</span>
+                        <span className="text-bold">改变您授权同意的范围</span>
                     </p>
                 </li>
             </ol>
@@ -2188,7 +2188,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">注销账户</span>
+                        <span className="text-bold">注销账户</span>
                     </p>
                 </li>
             </ol>
@@ -2207,7 +2207,7 @@ export default function Privacy() {
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
                 <span
-                    className="font-bold">您注销上述账户的行为是不可逆的，我们将停止为您提供产品或服务，不再收集您的个人信息，并依据您的要求删除与您账户相关的个人信息或做匿名化处理。</span>
+                    className="text-bold">您注销上述账户的行为是不可逆的，我们将停止为您提供产品或服务，不再收集您的个人信息，并依据您的要求删除与您账户相关的个人信息或做匿名化处理。</span>
             </p>
             <ol className="listlevel1WWNum13">
                 <li>
@@ -2216,7 +2216,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">响应您的上述请求</span>
+                        <span className="text-bold">响应您的上述请求</span>
                     </p>
                 </li>
             </ol>
@@ -2233,7 +2233,7 @@ export default function Privacy() {
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
                 <span
-                    className="font-bold">对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情收取一定成本费用。对于那些无端重复、需要过多技术手段、给他人合法权益带来风险或者非常不切实际的请求，我们可能会予以拒绝。</span>
+                    className="text-bold">对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情收取一定成本费用。对于那些无端重复、需要过多技术手段、给他人合法权益带来风险或者非常不切实际的请求，我们可能会予以拒绝。</span>
             </p>
             <ol className="listlevel1WWNum13">
                 <li>
@@ -2242,7 +2242,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">响应情形的例外</span>
+                        <span className="text-bold">响应情形的例外</span>
                     </p>
                 </li>
             </ol>
@@ -2260,7 +2260,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">与我们履行法律法规规定的义务相关的;</span>
+                        <span className="text-bold">与我们履行法律法规规定的义务相关的;</span>
                     </p>
                 </li>
                 <li>
@@ -2269,7 +2269,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">与国家安全、国防安全直接相关的;{" "}</span>
+                        <span className="text-bold">与国家安全、国防安全直接相关的;{" "}</span>
                     </p>
                 </li>
                 <li>
@@ -2278,7 +2278,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">与公共安全、公共卫生、重大公共利益直接相关的;{" "}</span>
+                        <span className="text-bold">与公共安全、公共卫生、重大公共利益直接相关的;{" "}</span>
                     </p>
                 </li>
                 <li>
@@ -2287,7 +2287,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">与刑事侦查、起诉、审判和执行判决等直接相关的;{" "}</span>
+                        <span className="text-bold">与刑事侦查、起诉、审判和执行判决等直接相关的;{" "}</span>
                     </p>
                 </li>
                 <li>
@@ -2296,17 +2296,7 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">我们有充分证据表明个人信息主体存在主观恶意或滥用权利的;</span>
-                    </p>
-                </li>
-                <li>
-                    <p
-                        className="Standard"
-                        dir="ltr"
-                        style={{marginTop: 0, marginBottom: "10.393702px"}}
-                    >
-                        <span
-                            className="font-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的;</span>
+                        <span className="text-bold">我们有充分证据表明个人信息主体存在主观恶意或滥用权利的;</span>
                     </p>
                 </li>
                 <li>
@@ -2316,7 +2306,7 @@ export default function Privacy() {
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
                         <span
-                            className="font-bold">响应个人信息主体的请求将导致个人信息主体或其他个人、组织的合法权益受到严重损害的;</span>
+                            className="text-bold">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的;</span>
                     </p>
                 </li>
                 <li>
@@ -2325,7 +2315,17 @@ export default function Privacy() {
                         dir="ltr"
                         style={{marginTop: 0, marginBottom: "10.393702px"}}
                     >
-                        <span className="font-bold">涉及商业秘密的。{" "}</span>
+                        <span
+                            className="text-bold">响应个人信息主体的请求将导致个人信息主体或其他个人、组织的合法权益受到严重损害的;</span>
+                    </p>
+                </li>
+                <li>
+                    <p
+                        className="Standard"
+                        dir="ltr"
+                        style={{marginTop: 0, marginBottom: "10.393702px"}}
+                    >
+                        <span className="text-bold">涉及商业秘密的。{" "}</span>
                     </p>
                 </li>
             </ol>
@@ -2352,7 +2352,7 @@ export default function Privacy() {
                             textIndent: 0
                         }}
                     >
-                        <span className="font-bold">我们如何处理未成年人的个人信息</span>
+                        <span className="text-bold">我们如何处理未成年人的个人信息</span>
                     </p>
                 </li>
             </ol>
@@ -2369,7 +2369,7 @@ export default function Privacy() {
                 style={{marginTop: "4.006299px", marginBottom: "4.006299px"}}
             >
                 <span
-                    className="font-bold">如您为未成年人（尤其是不满14周岁的未成年人），我们要求您请您的父母或其他监护人仔细阅读本隐私政策，并在征得您的监护人授权同意的前提下使用我们的服务或向我们提供信息。</span>
+                    className="text-bold">如您为未成年人（尤其是不满14周岁的未成年人），我们要求您请您的父母或其他监护人仔细阅读本隐私政策，并在征得您的监护人授权同意的前提下使用我们的服务或向我们提供信息。</span>
             </p>
             <p
                 className="Standard"
@@ -2377,7 +2377,7 @@ export default function Privacy() {
                 style={{marginTop: "4.006299px", marginBottom: "4.006299px"}}
             >
                 <span
-                    className="font-bold">如您是未成年人的监护人，请您关注您所监护的未成年人是否是在您授权同意之后使用我们的产品或服务。如果您对您所监护的未成年人的个人信息有疑问，请通过本隐私政策载明的方式与我们联系。</span>
+                    className="text-bold">如您是未成年人的监护人，请您关注您所监护的未成年人是否是在您授权同意之后使用我们的产品或服务。如果您对您所监护的未成年人的个人信息有疑问，请通过本隐私政策载明的方式与我们联系。</span>
             </p>
             <p
                 className="Standard"
@@ -2404,7 +2404,7 @@ export default function Privacy() {
                     >
                         <a id="a30pmug"/>
                         <a id="a9l90eg"/>
-                        <span className="font-bold">本隐私政策如何更新</span>
+                        <span className="text-bold">本隐私政策如何更新</span>
                     </p>
                 </li>
             </ol>
@@ -2414,7 +2414,7 @@ export default function Privacy() {
                 style={{marginTop: 0, marginBottom: "10.393702px"}}
             >
                 <span>我们的隐私政策可能会适时发生变更。我们会在本页面上发布对本隐私政策所做的任何变更。对于重大变更，我们还会提供更为显著的通知（我们可能会通过在浏览页面做特别提示等方式，说明隐私政策的具体变更内容）。</span>
-                <span className="font-bold">未经您明确同意，我们不会削减您按照本隐私政策所应享有的权利。</span>
+                <span className="text-bold">未经您明确同意，我们不会削减您按照本隐私政策所应享有的权利。</span>
             </p>
             <p
                 className="Standard"
@@ -2454,7 +2454,7 @@ export default function Privacy() {
                         }}
                     >
                         <a id="a5ff5qh"/>
-                        <span className="font-bold">如何联系我们</span>
+                        <span className="text-bold">如何联系我们</span>
                     </p>
                 </li>
             </ol>
@@ -2483,7 +2483,7 @@ export default function Privacy() {
             >
                 <span>一般情况下，我们将在十五个工作日内回复。</span>
                 <span
-                    className="font-bold">如果您对我们的回复不满意，特别是我们的个人信息处理行为损害了您的合法权益，您还可以向网信、电信、公安及工商等监管部门进行投诉或举报，或通过向被告住所地有管辖权的法院提起诉讼来寻求解决方案。</span>
+                    className="text-bold">如果您对我们的回复不满意，特别是我们的个人信息处理行为损害了您的合法权益，您还可以向网信、电信、公安及工商等监管部门进行投诉或举报，或通过向被告住所地有管辖权的法院提起诉讼来寻求解决方案。</span>
             </p>
         </div>
     </div>
