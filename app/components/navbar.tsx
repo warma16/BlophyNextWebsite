@@ -9,6 +9,7 @@ export default function Navbar() {
     const pathConfig: { [key: string]: (arg0: string) => boolean } = {
         home: (path: string) => path.split('/')[3] == "home" || path.split('/')[2] == "home",
         about: (path: string) => path.split('/')[3] == "about" || path.split('/')[2] == "about",
+        privacy: (path: string) => path.split('/')[3] == "privacy" || path.split('/')[2] == "privacy",
     };
 
 
@@ -77,6 +78,14 @@ export default function Navbar() {
                                     className={`text-black hover:text-gray-500 ${getLinkClass("about")} hover:border-b-2 border-blue-300`}
                                 >
                                     关于
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/privacy"
+                                    className={`text-black hover:text-gray-500 ${getLinkClass("privacy")} hover:border-b-2 border-blue-300`}
+                                >
+                                    隐私政策
                                 </Link>
                             </li>
                         </ul>
