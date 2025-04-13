@@ -1,5 +1,5 @@
-import {Links, Meta, Outlet, Scripts, ScrollRestoration,} from "@remix-run/react";
-import type {LinkDescriptor, LinksFunction} from "@remix-run/node";
+import type {LinkDescriptor, LinksFunction} from "react-router";
+import {Links, Meta, Outlet, Scripts, ScrollRestoration} from "react-router";
 import "./tailwind.css";
 import Navbar from "~/components/navbar";
 import consoleEgg from "~/utils/ConsoleEgg"
@@ -57,12 +57,12 @@ export function Layout({children}: { children: React.ReactNode }) {
                 href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap"
                 rel="stylesheet"
             />
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap"
+                  rel="stylesheet"/>
         </head>
         <body className="flex flex-col min-h-screen">
         <Navbar backgroundSrc={`${Object.keys(currentBackground)[0]}`}/>
-        <main
-            className="flex-grow"
-        >
+        <main className="flex-grow">
             <div className="bg-center bg-cover  bg-fixed overflow-x-hidden" style={{
                 backgroundImage: `url(${Object.keys(currentBackground)[0]})`,
                 backgroundSize: 'cover',

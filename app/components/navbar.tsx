@@ -1,7 +1,7 @@
 import {useRef, useState,useEffect} from 'react';
 import {motion} from 'framer-motion';
-import {Link, useLocation} from '@remix-run/react';
 import useHeaderColor from '~/utils/GetPixels';
+import {Link, useLocation} from 'react-router';
 
 export default function Navbar(props: { backgroundSrc?: string }) {
     const [hovered, setHovered] = useState(false); // 控制是否显示 Nova
@@ -10,6 +10,7 @@ export default function Navbar(props: { backgroundSrc?: string }) {
     const pathConfig: { [key: string]: (arg0: string) => boolean } = {
         home: (path: string) => path.split('/')[3] == "home" || path.split('/')[2] == "home",
         about: (path: string) => path.split('/')[3] == "about" || path.split('/')[2] == "about",
+        privacy: (path: string) => path.split('/')[3] == "privacy" || path.split('/')[2] == "privacy",
     };
 
 
@@ -106,6 +107,14 @@ export default function Navbar(props: { backgroundSrc?: string }) {
                                     className={`${colorClassName} hover:${colorHover} ${getLinkClass("about")} hover:border-b-2 border-blue-300`}
                                 >
                                     关于
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/privacy"
+                                    className={`text-black hover:text-gray-500 ${getLinkClass("privacy")} hover:border-b-2 border-blue-300`}
+                                >
+                                    隐私政策
                                 </Link>
                             </li>
                         </ul>

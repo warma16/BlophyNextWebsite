@@ -1,5 +1,5 @@
-import type {MetaFunction} from "@remix-run/node";
-import {Link} from "@remix-run/react";
+import type {MetaFunction} from "react-router";
+import {Link} from "react-router";
 import HardwareApi from "~/utils/clientApis/HardwareApi"
 import React from "react";
 import { useState ,useEffect} from "react";
@@ -29,7 +29,7 @@ export default function Page() {
 
     return (
         <div
-            className="mt-16 relative flex items-center justify-items-center backdrop-blur-sm overflow-y-hidden lg:justify-start"
+            className="mt-16 relative flex items-center justify-center backdrop-blur-sm overflow-y-hidden lg:justify-start"
         >
             <div className="flex justify-center items-center pl-8 h-screen">
                 {/* 外层正方形 */}
@@ -58,7 +58,7 @@ export default function Page() {
                 <h2 className="relative text-4xl font-bold mb-4 -left-[12%]">下载</h2>
                 <div className="relative justify-center items-center space-x-4 left-[15%]">
                     <div className="flex -ml-2">
-                        <Link to="https://www.taptap.cn/app/716901">
+                        <Link to="https://www.taptap.cn/app/716901" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48"
                                  className="ml-2 mt-1 flex-shrink-0 hover:text-[#00d9c5]">
                                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -108,7 +108,7 @@ export default function Page() {
                 className="hidden lg:block transform -translate-x-162/100 -translate-y-1/2 text-center z-10">
                 <h2 className="text-4xl font-bold whitespace-nowrap">来看看我们的最新视频！</h2>
                 <iframe
-                    src="https://player.bilibili.com/player.html?isOutside=true&aid=112982017245795&bvid=BV1yqWPeqEV4&cid=500001653489458&p=1&high_quality=1&danmaku=0&autoplay=0"
+                    src="https://player.bilibili.com/player.html?isOutside=true&aid=114121810907039&bvid=BV1cJ9SYQEfd&cid=28744944679&p=1&high_quality=1&danmaku=0&autoplay=0"
                     width="500"
                     height="281.25"
                     className="absolute pt-4 -ml-8 border-0"
@@ -118,9 +118,9 @@ export default function Page() {
                 />
             </div>
             <div
-                className="hidden lg:block mt-200 transform -translate-x-378/100 -translate-y-1/2 text-center z-10">
+                className="hidden lg:block mt-200 transform -translate-x-330/100 -translate-y-1/2 text-center z-10">
                 <h2 className="text-4xl font-bold whitespace-nowrap">和最近更新了啥...</h2>
-                <p className="text-2xl whitespace-nowrap mt-2">这个网站...</p>
+                <p className="text-2xl whitespace-nowrap mt-2">复活以来第一个官方手元发布!</p>
             </div>
         </div>
     );
