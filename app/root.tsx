@@ -2,7 +2,10 @@ import type {LinkDescriptor, LinksFunction} from "react-router";
 import {Links, Meta, Outlet, Scripts, ScrollRestoration} from "react-router";
 import "./tailwind.css";
 import Navbar from "~/components/navbar";
+import consoleEgg from "~/utils/ConsoleEgg"
+
 import React from "react";
+import {useEffect} from "react";
 
 const backgrounds: { [key: string]: string }[] = [
     {'backgrounds/close_to_me.png': '雨の音を聞くー'},
@@ -37,8 +40,11 @@ export const links: LinksFunction = () => {
 }
 
 export function Layout({children}: { children: React.ReactNode }) {
+    
+    consoleEgg()
     const randomIndex = Math.floor(Math.random() * backgrounds.length);
     const currentBackground = backgrounds[randomIndex]
+
     return (
         <html lang="zh_CN">
         <head>
@@ -55,15 +61,17 @@ export function Layout({children}: { children: React.ReactNode }) {
                   rel="stylesheet"/>
         </head>
         <body className="flex flex-col min-h-screen">
-        <Navbar/>
+        <Navbar backgroundSrc={`${Object.keys(currentBackground)[0]}`}/>
         <main className="flex-grow">
-            <div className="bg-center bg-cover  bg-fixed overflow-x-hidden" style={{
+            <div className="bg-center bg-cover  bg-fixed overflow-x-hidden " style={{
                 backgroundImage: `url(${Object.keys(currentBackground)[0]})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 zIndex: -1,
             }}>
-                <Outlet/>
+                <div className="bg-white/30 dark:bg-black/30">
+                    <Outlet></Outlet>
+                </div>
                 <div
                     className="fixed top-h bottom-0 m-4 text-center z-10 whitespace-nowrap text-gray-200 lg:text-gray-600"
                 >

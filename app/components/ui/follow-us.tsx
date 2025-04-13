@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FollowUs(props: { className?: string }) {
     return <div className={"flex justify-center space-x-4 items-center z-10 " + props.className}>
-        <Link to="https://space.bilibili.com/445582135" target="_blank">
+        <Link to="https://space.bilibili.com/445582135" target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512"
                  className="hover:text-blue-500 max-lg:text-blue-400">
                 <path fill="currentColor"
@@ -19,7 +19,7 @@ export default function FollowUs(props: { className?: string }) {
         </Link>
         <Link
             to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZC8-lrN0E651rGLKosBzYr-fPtPh9ntQ&authKey=gDfCU%2BeFTcW6cyJyrnrJbzkuM9oTHTRtBMNICjZuBhzGw3j4%2FMlVAqhI3sVGcWQC&noverify=0&group_code=761741595"
-            target="_blank">
+            target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 448 512"
                  className="ml-2 flex-shrink-0 hover:text-blue-300 max-lg:text-blue-300 max-lg:hidden block">
                 <path fill="currentColor"

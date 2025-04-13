@@ -8,7 +8,8 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Privacy() {
-    return <div className="mt-16 backdrop-blur">
+    
+    return <div className="mt-16 backdrop-blur  p-8 rounded-xl">
         <style
             media="all"
             type="text/css"

@@ -1,6 +1,8 @@
 import type {MetaFunction} from "react-router";
 import {Link} from "react-router";
+import HardwareApi from "~/utils/clientApis/HardwareApi"
 import React from "react";
+import { useState ,useEffect} from "react";
 import FollowUs from "~/components/ui/follow-us";
 
 export const meta: MetaFunction = () => {
@@ -11,6 +13,20 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Page() {
+    const isMobile=HardwareApi.checkPhone()
+    let [w_s, setW_s] = useState([64,56,48])
+    let [h_s, setH_s] = useState([64,56,48])
+    let [lgw_s, setLgw_s] = useState([64,56,48,40])
+    let [lgh_s, setLgh_s] = useState([64,56,48,40])
+    let [scales, setScales] = useState([550,450,350,250])
+    useEffect(() => {
+        if(!isMobile){
+            //setScales([550,450,175,125])
+            console.log("pass")
+        }
+    })
+    
+
     return (
         <div
             className="mt-16 relative flex items-center justify-center backdrop-blur-sm overflow-y-hidden lg:justify-start"
@@ -18,13 +34,13 @@ export default function Page() {
             <div className="flex justify-center items-center pl-8 h-screen">
                 {/* 外层正方形 */}
                 <div
-                    className="absolute border-gray-300 rotate-16 border-4 transform w-40 h-40 lg:w-64 lg:h-64 scale-550"></div>
+                    className={`absolute border-gray-300 rotate-16 border-4 transform w-${w_s[0]} h-${h_s[0]}  scale-${scales[0]}`}></div>
                 <div
-                    className="absolute border-gray-300 rotate-28 border-4 transform w-35 h-35 lg:w-56 lg:h-56 scale-450"></div>
+                    className={`absolute border-gray-300 rotate-28 border-4 transform w-${w_s[1]} h-${h_s[1]}  scale-${scales[1]}`}></div>
                 <div
-                    className="absolute border-gray-300 rotate-40 border-4 transform w-30 h-30 lg:w-48 lg:h-48 scale-350"></div>
+                    className={`absolute border-gray-300 rotate-40 border-4 transform w-${w_s[2]} h-${h_s[2]}  scale-${scales[2]}`}></div>
                 <div
-                    className="absolute border-gray-300 rotate-52 border-4 transform hidden lg:block lg:w-40 lg:h-40 scale-250"></div>
+                    className={`absolute border-gray-300 rotate-52 border-4 transform hidden lg:block  scale-${scales[3]}`}></div>
                 <div className="grid">
                     <h1 className="font-blophy font-bold bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text text-7xl whitespace-nowrap">
                         blophy nova
@@ -33,12 +49,12 @@ export default function Page() {
                 </div>
             </div>
             <div
-                className="hidden lg:block transform text-center z-10 place-content-center lg:-mt-160 lg:ml-200 lg:-translate-x-1/2 lg:-translate-y-1/2">
+                className="hidden absolute lg:block transform text-center z-10 place-content-center lg:-mt-160 lg:ml-200 lg:-translate-x-1/2 lg:-translate-y-1/2">
                 <h2 className="text-4xl font-bold mb-4">关注我们</h2>
                 <FollowUs/>
             </div>
             <div
-                className="hidden lg:block -mt-35 transform -translate-x-150/100 -translate-y-1/2 text-center z-10">
+                className="hidden absolute lg:block -mt-35 transform -translate-x-150/100 -translate-y-1/2 text-center z-10">
                 <h2 className="relative text-4xl font-bold mb-4 -left-[12%]">下载</h2>
                 <div className="relative justify-center items-center space-x-4 left-[15%]">
                     <div className="flex -ml-2">
@@ -54,7 +70,7 @@ export default function Page() {
                     <div className="flex pt-2">
                         <Link
                             to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZC8-lrN0E651rGLKosBzYr-fPtPh9ntQ&authKey=gDfCU%2BeFTcW6cyJyrnrJbzkuM9oTHTRtBMNICjZuBhzGw3j4%2FMlVAqhI3sVGcWQC&noverify=0&group_code=761741595"
-                            target="_blank">
+                            target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em"
                                  viewBox="0 0 448 512"
                                  className="ml-2 flex-shrink-0 hover:text-blue-300">
