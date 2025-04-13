@@ -34,9 +34,9 @@ export default function Navbar(props: { backgroundSrc?: string }) {
         let tmp_colorHover=""
         console.log(`change color ${colorClassn}`)
         setColorClassName(colorClassn);
-        switch(colorClassName){
-            case "text-zinc-50":
-                tmp_colorHover="text-zinc-100";
+        switch(colorClassn){
+            case "text-white/85":
+                tmp_colorHover="text-zinc-50";
                 break;
             default:
                 tmp_colorHover="text-gray-500";
@@ -59,8 +59,7 @@ export default function Navbar(props: { backgroundSrc?: string }) {
     };
 
     return (
-        <div>
-            <header className="fixed top-0 left-0 w-full bg-opacity-60 backdrop-blur-sm shadow-md z-10" ref={headerRef}>
+            <header className="fixed top-0 left-0 w-full bg-opacity-60 backdrop-blur-sm shadow-md z-10  dark:bg-gray-900/30" ref={headerRef}>
                 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
                     <div
                         className="relative flex items-center"
@@ -112,7 +111,7 @@ export default function Navbar(props: { backgroundSrc?: string }) {
                             <li>
                                 <Link
                                     to="/privacy"
-                                    className={`text-black hover:text-gray-500 ${getLinkClass("privacy")} hover:border-b-2 border-blue-300`}
+                                    className={`${colorClassName} hover:${colorHover} ${getLinkClass("privacy")} hover:border-b-2 border-blue-300`}
                                 >
                                     隐私政策
                                 </Link>
@@ -121,6 +120,5 @@ export default function Navbar(props: { backgroundSrc?: string }) {
                     </nav>
                 </div>
             </header>
-        </div>
     );
 }

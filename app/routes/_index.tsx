@@ -14,8 +14,8 @@ export const meta: MetaFunction = () => {
 
 export default function Page() {
     const isMobile=HardwareApi.checkPhone()
-    let [w_s, setW_s] = useState([40,35,30])
-    let [h_s, setH_s] = useState([40,35,30])
+    let [w_s, setW_s] = useState([64,56,48])
+    let [h_s, setH_s] = useState([64,56,48])
     let [lgw_s, setLgw_s] = useState([64,56,48,40])
     let [lgh_s, setLgh_s] = useState([64,56,48,40])
     let [scales, setScales] = useState([550,450,350,250])
@@ -34,13 +34,13 @@ export default function Page() {
             <div className="flex justify-center items-center pl-8 h-screen">
                 {/* 外层正方形 */}
                 <div
-                    className={`absolute border-gray-300 rotate-16 border-4 transform w-${w_s[0]} h-${h_s[0]} lg:w-${lgw_s[0]} lg:h-${lgh_s[0]} scale-${scales[0]}`}></div>
+                    className={`absolute border-gray-300 rotate-16 border-4 transform w-${w_s[0]} h-${h_s[0]}  scale-${scales[0]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-28 border-4 transform w-${w_s[1]} h-${h_s[1]} lg:w-${lgw_s[1]} lg:h-${lgh_s[1]} scale-${scales[1]}`}></div>
+                    className={`absolute border-gray-300 rotate-28 border-4 transform w-${w_s[1]} h-${h_s[1]}  scale-${scales[1]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-40 border-4 transform w-${w_s[2]} h-${h_s[2]} lg:w-${lgh_s[2]} lg:h-${lgh_s[2]} scale-${scales[2]}`}></div>
+                    className={`absolute border-gray-300 rotate-40 border-4 transform w-${w_s[2]} h-${h_s[2]}  scale-${scales[2]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-52 border-4 transform hidden lg:block lg:w-${lgh_s[3]} lg:h-${lgh_s[3]} scale-${scales[3]}`}></div>
+                    className={`absolute border-gray-300 rotate-52 border-4 transform hidden lg:block  scale-${scales[3]}`}></div>
                 <div className="grid">
                     <h1 className="font-blophy font-bold bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text text-7xl whitespace-nowrap">
                         blophy nova

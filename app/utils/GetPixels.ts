@@ -30,7 +30,7 @@ const useHeaderColor = (imageUrl: string, headerRef: React.RefObject<HTMLElement
       }
       
       const averageValue = event.data.averageGray / sampleSize;
-      setTextClass(averageValue < 128 ? "text-zinc-50" : "text-gray-800");
+      setTextClass(averageValue < 128 ? "text-white/85" : "text-gray-800");
     };
 
   }, [imageUrl]);
