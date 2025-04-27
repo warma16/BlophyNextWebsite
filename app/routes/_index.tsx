@@ -1,8 +1,7 @@
 import type {MetaFunction} from "react-router";
 import {Link} from "react-router";
 import HardwareApi from "~/utils/clientApis/HardwareApi"
-import React from "react";
-import { useState ,useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import FollowUs from "~/components/ui/follow-us";
 
 export const meta: MetaFunction = () => {
@@ -13,19 +12,16 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Page() {
-    const isMobile=HardwareApi.checkPhone()
-    let [w_s, setW_s] = useState([64,56,48])
-    let [h_s, setH_s] = useState([64,56,48])
-    let [lgw_s, setLgw_s] = useState([64,56,48,40])
-    let [lgh_s, setLgh_s] = useState([64,56,48,40])
-    let [scales, setScales] = useState([550,450,350,250])
+    const isMobile = HardwareApi.checkPhone()
+    let [blockWide, setBlockWide] = useState([64, 56, 48, 40])
+    let [blockHeight, setBlockHeight] = useState([64, 56, 48, 40])
+    let [blockScales, setBlockScales] = useState([550, 450, 350, 250])
     useEffect(() => {
-        if(!isMobile){
+        if (!isMobile) {
             //setScales([550,450,175,125])
             console.log("pass")
         }
     })
-    
 
     return (
         <div
@@ -34,13 +30,13 @@ export default function Page() {
             <div className="flex justify-center items-center pl-8 h-screen">
                 {/* 外层正方形 */}
                 <div
-                    className={`absolute border-gray-300 rotate-16 border-4 transform w-${w_s[0]} h-${h_s[0]}  scale-${scales[0]}`}></div>
+                    className={`absolute border-gray-300 rotate-16 border-4 transform w-${blockWide[0]} h-${blockHeight[0]} scale-${blockScales[0]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-28 border-4 transform w-${w_s[1]} h-${h_s[1]}  scale-${scales[1]}`}></div>
+                    className={`absolute border-gray-300 rotate-28 border-4 transform w-${blockWide[1]} h-${blockHeight[1]} scale-${blockScales[1]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-40 border-4 transform w-${w_s[2]} h-${h_s[2]}  scale-${scales[2]}`}></div>
+                    className={`absolute border-gray-300 rotate-40 border-4 transform w-${blockWide[2]} h-${blockHeight[2]} scale-${blockScales[2]}`}></div>
                 <div
-                    className={`absolute border-gray-300 rotate-52 border-4 transform hidden lg:block  scale-${scales[3]}`}></div>
+                    className={`absolute border-gray-300 rotate-52 border-4 transform hidden lg:block w-${blockWide[3]} h-${blockHeight[3]} scale-${blockScales[3]}`}></div>
                 <div className="grid">
                     <h1 className="font-blophy font-bold bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text text-7xl whitespace-nowrap">
                         blophy nova
@@ -49,14 +45,11 @@ export default function Page() {
                 </div>
             </div>
             <div
-                className="hidden absolute lg:block transform text-center z-10 place-content-center lg:-mt-160 lg:ml-200 lg:-translate-x-1/2 lg:-translate-y-1/2">
+                className="absolute hidden lg:block transform text-center z-10 place-content-center lg: -mt-140 lg:ml-200">
                 <h2 className="text-4xl font-bold mb-4">关注我们</h2>
                 <FollowUs/>
-            </div>
-            <div
-                className="hidden absolute lg:block -mt-35 transform -translate-x-150/100 -translate-y-1/2 text-center z-10">
                 <h2 className="relative text-4xl font-bold mb-4 -left-[12%]">下载</h2>
-                <div className="relative justify-center items-center space-x-4 left-[15%]">
+                <div className="relative justify-center items-center space-x-4 -mt-5">
                     <div className="flex -ml-2">
                         <Link to="https://www.taptap.cn/app/716901" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48"
@@ -103,24 +96,16 @@ export default function Page() {
                         <div className="pt-1.5 px-1 whitespace-nowrap">从Malody导入BPM List和偏移量</div>
                     </div>
                 </div>
-            </div>
-            <div
-                className="hidden lg:block transform -translate-x-162/100 -translate-y-1/2 text-center z-10">
-                <h2 className="text-4xl font-bold whitespace-nowrap">来看看我们的最新视频！</h2>
+                <h2 className="text-4xl font-bold whitespace-nowrap ml-[30%]">来看看我们的最新视频！</h2>
                 <iframe
-                    src="https://player.bilibili.com/player.html?isOutside=true&aid=114121810907039&bvid=BV1cJ9SYQEfd&cid=28744944679&p=1&high_quality=1&danmaku=0&autoplay=0"
+                    src="https://player.bilibili.com/player.html?isOutside=true&aid=114244469132977&bvid=BV1RnZwYJEBb&cid=29127738159&p=1&high_quality=1&danmaku=0&autoplay=0"
                     width="500"
                     height="281.25"
-                    className="absolute pt-4 -ml-8 border-0"
+                    className="absolute pt-4 border-0 ml-4"
                     allowFullScreen
                     title="Bilibili Video"
                     sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
                 />
-            </div>
-            <div
-                className="hidden lg:block mt-200 transform -translate-x-330/100 -translate-y-1/2 text-center z-10">
-                <h2 className="text-4xl font-bold whitespace-nowrap">和最近更新了啥...</h2>
-                <p className="text-2xl whitespace-nowrap mt-2">复活以来第一个官方手元发布!</p>
             </div>
         </div>
     );
